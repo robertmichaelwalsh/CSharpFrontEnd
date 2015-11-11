@@ -1,0 +1,22 @@
+77
+42 44 lbrace
+14 16 lbrace
+69 70 integer_literal
+58 59 dot
+50 51 dot
+51 58 identifier
+23 30 static
+6 14 identifier
+44 50 identifier
+35 39 identifier
+70 71 rparen
+40 42 rparen
+59 68 identifier
+30 35 void
+0 6 class
+68 69 lparen
+39 40 lparen
+73 75 rbrace
+75 76 rbrace
+71 73 semicolon
+16 23 public

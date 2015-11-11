@@ -1,0 +1,43 @@
+graph:{
+node:{title:"44 769 compilation_unit,0,9" label:"compilation_unit 0 9" horizontal_order:9}
+edge:{sourcename:"44 769 compilation_unit,0,9" targetname:"46 818 namespace_member_declaration,0,9"}
+node:{title:"46 818 namespace_member_declaration,0,9" label:"namespace_member_declaration 0 9" horizontal_order:9}
+edge:{sourcename:"46 818 namespace_member_declaration,0,9" targetname:"47 823 type_declaration,0,9"}
+node:{title:"47 823 type_declaration,0,9" label:"type_declaration 0 9" horizontal_order:9}
+edge:{sourcename:"47 823 type_declaration,0,9" targetname:"48 834 class_declaration,0,9"}
+node:{title:"48 834 class_declaration,0,9" label:"class_declaration 0 9" horizontal_order:9}
+edge:{sourcename:"48 834 class_declaration,0,9" targetname:"51 93 modifier,0,1"}
+node:{title:"51 93 modifier,0,1" label:"modifier 0 1" horizontal_order:1}
+edge:{sourcename:"51 93 modifier,0,1" targetname:"73 93 public,0,1"}
+node:{title:"73 93 public,0,1" label:"public 0 1" horizontal_order:1}
+edge:{sourcename:"48 834 class_declaration,0,9" targetname:"52 55 class,1,2"}
+node:{title:"52 55 class,1,2" label:"class 1 2" horizontal_order:2}
+edge:{sourcename:"48 834 class_declaration,0,9" targetname:"53 1685 identifier,2,3"}
+node:{title:"53 1685 identifier,2,3" label:"identifier 2 3" horizontal_order:3}
+edge:{sourcename:"53 1685 identifier,2,3" targetname:"54 2 TestInheritImplement,2,3"}
+node:{title:"54 2 TestInheritImplement,2,3" label:"TestInheritImplement 2 3" horizontal_order:3}
+edge:{sourcename:"48 834 class_declaration,0,9" targetname:"55 859 class_base,3,7"}
+node:{title:"55 859 class_base,3,7" label:"class_base 3 7" horizontal_order:7}
+edge:{sourcename:"55 859 class_base,3,7" targetname:"56 27 :,3,4"}
+node:{title:"56 27 :,3,4" label:": 3 4" horizontal_order:4}
+edge:{sourcename:"55 859 class_base,3,7" targetname:"57 867 interface_type_list,4,7"}
+node:{title:"57 867 interface_type_list,4,7" label:"interface_type_list 4 7" horizontal_order:7}
+edge:{sourcename:"57 867 interface_type_list,4,7" targetname:"62 1685 qualified_identifier,4,5"}
+node:{title:"62 1685 qualified_identifier,4,5" label:"qualified_identifier 4 5" horizontal_order:5}
+edge:{sourcename:"62 1685 qualified_identifier,4,5" targetname:"74 1685 identifier,4,5"}
+node:{title:"74 1685 identifier,4,5" label:"identifier 4 5" horizontal_order:5}
+edge:{sourcename:"74 1685 identifier,4,5" targetname:"63 2 Inherit,4,5"}
+node:{title:"63 2 Inherit,4,5" label:"Inherit 4 5" horizontal_order:5}
+edge:{sourcename:"57 867 interface_type_list,4,7" targetname:"64 20 ,,5,6"}
+node:{title:"64 20 ,,5,6" label:", 5 6" horizontal_order:6}
+edge:{sourcename:"57 867 interface_type_list,4,7" targetname:"68 1685 qualified_identifier,6,7"}
+node:{title:"68 1685 qualified_identifier,6,7" label:"qualified_identifier 6 7" horizontal_order:7}
+edge:{sourcename:"68 1685 qualified_identifier,6,7" targetname:"75 1685 identifier,6,7"}
+node:{title:"75 1685 identifier,6,7" label:"identifier 6 7" horizontal_order:7}
+edge:{sourcename:"75 1685 identifier,6,7" targetname:"69 2 Implement,6,7"}
+node:{title:"69 2 Implement,6,7" label:"Implement 6 7" horizontal_order:7}
+edge:{sourcename:"48 834 class_declaration,0,9" targetname:"71 118 {,7,8"}
+node:{title:"71 118 {,7,8" label:"{ 7 8" horizontal_order:8}
+edge:{sourcename:"48 834 class_declaration,0,9" targetname:"72 122 },8,9"}
+node:{title:"72 122 },8,9" label:"} 8 9" horizontal_order:9}
+}

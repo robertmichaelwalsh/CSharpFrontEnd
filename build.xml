@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!-- Configuration of the Ant build system to generate a Jar file --> 
+<project name="CSharpCompiler" default="BuildAll">
+	
+  <target name="BuildAll" description="Generates class files">
+    <javac source="1.8" target="1.8" includeantruntime="false" destdir="${basedir}/bin" srcdir="${basedir}/src" >
+    	<classpath> 
+          <fileset dir="${basedir}"> 
+    		<include name="*.jar" /> 
+          </fileset>  
+    	</classpath> 
+    </javac>
+  </target>
+</project>

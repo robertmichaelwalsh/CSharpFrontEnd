@@ -1,0 +1,15 @@
+compilation_unit(namespace_member_declaration(type_declaration(class_declaration(
+        'modifier'('public'),
+        'class',
+        identifier('TestInheritImplement'),
+        class_base(
+          ':',
+          interface_type_list(
+            qualified_identifier(identifier('Inherit')),
+            ',',
+            qualified_identifier(identifier('Implement'))
+          )
+        ),
+        '{',
+        '}'
+      ))))

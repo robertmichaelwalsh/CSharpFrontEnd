@@ -1,0 +1,799 @@
+graph:{
+node:{title:"1034 769 compilation_unit,0,157" label:"compilation_unit 0 157" horizontal_order:157}
+edge:{sourcename:"1034 769 compilation_unit,0,157" targetname:"1037 800 using_directive,0,3"}
+node:{title:"1037 800 using_directive,0,3" label:"using_directive 0 3" horizontal_order:3}
+edge:{sourcename:"1037 800 using_directive,0,3" targetname:"1039 113 using,0,1"}
+node:{title:"1039 113 using,0,1" label:"using 0 1" horizontal_order:1}
+edge:{sourcename:"1037 800 using_directive,0,3" targetname:"1042 1685 identifier,1,2"}
+node:{title:"1042 1685 identifier,1,2" label:"identifier 1 2" horizontal_order:2}
+edge:{sourcename:"1042 1685 identifier,1,2" targetname:"1043 2 System,1,2"}
+node:{title:"1043 2 System,1,2" label:"System 1 2" horizontal_order:2}
+edge:{sourcename:"1037 800 using_directive,0,3" targetname:"1044 28 ;,2,3"}
+node:{title:"1044 28 ;,2,3" label:"; 2 3" horizontal_order:3}
+edge:{sourcename:"1034 769 compilation_unit,0,157" targetname:"1045 800 using_directive,3,10"}
+node:{title:"1045 800 using_directive,3,10" label:"using_directive 3 10" horizontal_order:10}
+edge:{sourcename:"1045 800 using_directive,3,10" targetname:"1047 113 using,3,4"}
+node:{title:"1047 113 using,3,4" label:"using 3 4" horizontal_order:4}
+edge:{sourcename:"1045 800 using_directive,3,10" targetname:"1052 1685 identifier,4,5"}
+node:{title:"1052 1685 identifier,4,5" label:"identifier 4 5" horizontal_order:5}
+edge:{sourcename:"1052 1685 identifier,4,5" targetname:"1053 2 System,4,5"}
+node:{title:"1053 2 System,4,5" label:"System 4 5" horizontal_order:5}
+edge:{sourcename:"1045 800 using_directive,3,10" targetname:"1054 24 .,5,6"}
+node:{title:"1054 24 .,5,6" label:". 5 6" horizontal_order:6}
+edge:{sourcename:"1045 800 using_directive,3,10" targetname:"1055 1685 identifier,6,7"}
+node:{title:"1055 1685 identifier,6,7" label:"identifier 6 7" horizontal_order:7}
+edge:{sourcename:"1055 1685 identifier,6,7" targetname:"1056 2 Runtime,6,7"}
+node:{title:"1056 2 Runtime,6,7" label:"Runtime 6 7" horizontal_order:7}
+edge:{sourcename:"1045 800 using_directive,3,10" targetname:"1057 24 .,7,8"}
+node:{title:"1057 24 .,7,8" label:". 7 8" horizontal_order:8}
+edge:{sourcename:"1045 800 using_directive,3,10" targetname:"1058 1685 identifier,8,9"}
+node:{title:"1058 1685 identifier,8,9" label:"identifier 8 9" horizontal_order:9}
+edge:{sourcename:"1058 1685 identifier,8,9" targetname:"1059 2 InteropServices,8,9"}
+node:{title:"1059 2 InteropServices,8,9" label:"InteropServices 8 9" horizontal_order:9}
+edge:{sourcename:"1045 800 using_directive,3,10" targetname:"1060 28 ;,9,10"}
+node:{title:"1060 28 ;,9,10" label:"; 9 10" horizontal_order:10}
+edge:{sourcename:"1034 769 compilation_unit,0,157" targetname:"1063 818 namespace_member_declaration,10,127"}
+node:{title:"1063 818 namespace_member_declaration,10,127" label:"namespace_member_declaration 10 127" horizontal_order:127}
+edge:{sourcename:"1063 818 namespace_member_declaration,10,127" targetname:"1064 823 type_declaration,10,127"}
+node:{title:"1064 823 type_declaration,10,127" label:"type_declaration 10 127" horizontal_order:127}
+edge:{sourcename:"1064 823 type_declaration,10,127" targetname:"1065 1327 struct_declaration,10,127"}
+node:{title:"1065 1327 struct_declaration,10,127" label:"struct_declaration 10 127" horizontal_order:127}
+edge:{sourcename:"1065 1327 struct_declaration,10,127" targetname:"1068 1606 attribute_section,10,18"}
+node:{title:"1068 1606 attribute_section,10,18" label:"attribute_section 10 18" horizontal_order:18}
+edge:{sourcename:"1068 1606 attribute_section,10,18" targetname:"1069 41 [,10,11"}
+node:{title:"1069 41 [,10,11" label:"[ 10 11" horizontal_order:11}
+edge:{sourcename:"1068 1606 attribute_section,10,18" targetname:"1070 1622 attribute_list,11,17"}
+node:{title:"1070 1622 attribute_list,11,17" label:"attribute_list 11 17" horizontal_order:17}
+edge:{sourcename:"1070 1622 attribute_list,11,17" targetname:"1071 1628 attribute,11,17"}
+node:{title:"1071 1628 attribute,11,17" label:"attribute 11 17" horizontal_order:17}
+edge:{sourcename:"1071 1628 attribute,11,17" targetname:"1075 1685 qualified_identifier,11,12"}
+node:{title:"1075 1685 qualified_identifier,11,12" label:"qualified_identifier 11 12" horizontal_order:12}
+edge:{sourcename:"1075 1685 qualified_identifier,11,12" targetname:"1943 1685 identifier,11,12"}
+node:{title:"1943 1685 identifier,11,12" label:"identifier 11 12" horizontal_order:12}
+edge:{sourcename:"1943 1685 identifier,11,12" targetname:"1076 2 StructLayout,11,12"}
+node:{title:"1076 2 StructLayout,11,12" label:"StructLayout 11 12" horizontal_order:12}
+edge:{sourcename:"1071 1628 attribute,11,17" targetname:"1077 1636 attribute_arguments,12,17"}
+node:{title:"1077 1636 attribute_arguments,12,17" label:"attribute_arguments 12 17" horizontal_order:17}
+edge:{sourcename:"1077 1636 attribute_arguments,12,17" targetname:"1078 13 (,12,13"}
+node:{title:"1078 13 (,12,13" label:"( 12 13" horizontal_order:13}
+edge:{sourcename:"1077 1636 attribute_arguments,12,17" targetname:"1082 478 expression,13,16"}
+node:{title:"1082 478 expression,13,16" label:"expression 13 16" horizontal_order:16}
+edge:{sourcename:"1082 478 expression,13,16" targetname:"1101 1685 expression,13,14"}
+node:{title:"1101 1685 expression,13,14" label:"expression 13 14" horizontal_order:14}
+edge:{sourcename:"1101 1685 expression,13,14" targetname:"1944 1685 identifier,13,14"}
+node:{title:"1944 1685 identifier,13,14" label:"identifier 13 14" horizontal_order:14}
+edge:{sourcename:"1944 1685 identifier,13,14" targetname:"1102 2 LayoutKind,13,14"}
+node:{title:"1102 2 LayoutKind,13,14" label:"LayoutKind 13 14" horizontal_order:14}
+edge:{sourcename:"1082 478 expression,13,16" targetname:"1103 24 .,14,15"}
+node:{title:"1103 24 .,14,15" label:". 14 15" horizontal_order:15}
+edge:{sourcename:"1082 478 expression,13,16" targetname:"1104 1685 identifier,15,16"}
+node:{title:"1104 1685 identifier,15,16" label:"identifier 15 16" horizontal_order:16}
+edge:{sourcename:"1104 1685 identifier,15,16" targetname:"1105 2 Explicit,15,16"}
+node:{title:"1105 2 Explicit,15,16" label:"Explicit 15 16" horizontal_order:16}
+edge:{sourcename:"1077 1636 attribute_arguments,12,17" targetname:"1106 14 ),16,17"}
+node:{title:"1106 14 ),16,17" label:") 16 17" horizontal_order:17}
+edge:{sourcename:"1068 1606 attribute_section,10,18" targetname:"1107 42 ],17,18"}
+node:{title:"1107 42 ],17,18" label:"] 17 18" horizontal_order:18}
+edge:{sourcename:"1065 1327 struct_declaration,10,127" targetname:"1108 102 struct,18,19"}
+node:{title:"1108 102 struct,18,19" label:"struct 18 19" horizontal_order:19}
+edge:{sourcename:"1065 1327 struct_declaration,10,127" targetname:"1109 1685 identifier,19,20"}
+node:{title:"1109 1685 identifier,19,20" label:"identifier 19 20" horizontal_order:20}
+edge:{sourcename:"1109 1685 identifier,19,20" targetname:"1110 2 TestStructure,19,20"}
+node:{title:"1110 2 TestStructure,19,20" label:"TestStructure 19 20" horizontal_order:20}
+edge:{sourcename:"1065 1327 struct_declaration,10,127" targetname:"1112 118 {,20,21"}
+node:{title:"1112 118 {,20,21" label:"{ 20 21" horizontal_order:21}
+edge:{sourcename:"1065 1327 struct_declaration,10,127" targetname:"1117 926 member_declaration,21,31"}
+node:{title:"1117 926 member_declaration,21,31" label:"member_declaration 21 31" horizontal_order:31}
+edge:{sourcename:"1117 926 member_declaration,21,31" targetname:"1948 926 field_declaration,21,31"}
+node:{title:"1948 926 field_declaration,21,31" label:"field_declaration 21 31" horizontal_order:31}
+edge:{sourcename:"1948 926 field_declaration,21,31" targetname:"1120 1606 attribute_section,21,27"}
+node:{title:"1120 1606 attribute_section,21,27" label:"attribute_section 21 27" horizontal_order:27}
+edge:{sourcename:"1120 1606 attribute_section,21,27" targetname:"1121 41 [,21,22"}
+node:{title:"1121 41 [,21,22" label:"[ 21 22" horizontal_order:22}
+edge:{sourcename:"1120 1606 attribute_section,21,27" targetname:"1122 1622 attribute_list,22,26"}
+node:{title:"1122 1622 attribute_list,22,26" label:"attribute_list 22 26" horizontal_order:26}
+edge:{sourcename:"1122 1622 attribute_list,22,26" targetname:"1123 1628 attribute,22,26"}
+node:{title:"1123 1628 attribute,22,26" label:"attribute 22 26" horizontal_order:26}
+edge:{sourcename:"1123 1628 attribute,22,26" targetname:"1127 1685 qualified_identifier,22,23"}
+node:{title:"1127 1685 qualified_identifier,22,23" label:"qualified_identifier 22 23" horizontal_order:23}
+edge:{sourcename:"1127 1685 qualified_identifier,22,23" targetname:"1945 1685 identifier,22,23"}
+node:{title:"1945 1685 identifier,22,23" label:"identifier 22 23" horizontal_order:23}
+edge:{sourcename:"1945 1685 identifier,22,23" targetname:"1128 2 FieldOffset,22,23"}
+node:{title:"1128 2 FieldOffset,22,23" label:"FieldOffset 22 23" horizontal_order:23}
+edge:{sourcename:"1123 1628 attribute,22,26" targetname:"1129 1636 attribute_arguments,23,26"}
+node:{title:"1129 1636 attribute_arguments,23,26" label:"attribute_arguments 23 26" horizontal_order:26}
+edge:{sourcename:"1129 1636 attribute_arguments,23,26" targetname:"1130 13 (,23,24"}
+node:{title:"1130 13 (,23,24" label:"( 23 24" horizontal_order:24}
+edge:{sourcename:"1129 1636 attribute_arguments,23,26" targetname:"1134 478 expression,24,25"}
+node:{title:"1134 478 expression,24,25" label:"expression 24 25" horizontal_order:25}
+edge:{sourcename:"1134 478 expression,24,25" targetname:"1149 1667 literal,24,25"}
+node:{title:"1149 1667 literal,24,25" label:"literal 24 25" horizontal_order:25}
+edge:{sourcename:"1149 1667 literal,24,25" targetname:"1150 3 0,24,25"}
+node:{title:"1150 3 0,24,25" label:"0 24 25" horizontal_order:25}
+edge:{sourcename:"1129 1636 attribute_arguments,23,26" targetname:"1151 14 ),25,26"}
+node:{title:"1151 14 ),25,26" label:") 25 26" horizontal_order:26}
+edge:{sourcename:"1120 1606 attribute_section,21,27" targetname:"1152 42 ],26,27"}
+node:{title:"1152 42 ],26,27" label:"] 26 27" horizontal_order:27}
+edge:{sourcename:"1948 926 field_declaration,21,31" targetname:"1155 79 modifier,27,28"}
+node:{title:"1155 79 modifier,27,28" label:"modifier 27 28" horizontal_order:28}
+edge:{sourcename:"1155 79 modifier,27,28" targetname:"1946 79 internal,27,28"}
+node:{title:"1946 79 internal,27,28" label:"internal 27 28" horizontal_order:28}
+edge:{sourcename:"1948 926 field_declaration,21,31" targetname:"1156 137 type,28,29"}
+node:{title:"1156 137 type,28,29" label:"type 28 29" horizontal_order:29}
+edge:{sourcename:"1156 137 type,28,29" targetname:"1161 162 predefined_type,28,29"}
+node:{title:"1161 162 predefined_type,28,29" label:"predefined_type 28 29" horizontal_order:29}
+edge:{sourcename:"1161 162 predefined_type,28,29" targetname:"1947 162 integral_type,28,29"}
+node:{title:"1947 162 integral_type,28,29" label:"integral_type 28 29" horizontal_order:29}
+edge:{sourcename:"1947 162 integral_type,28,29" targetname:"1162 77 int,28,29"}
+node:{title:"1162 77 int,28,29" label:"int 28 29" horizontal_order:29}
+edge:{sourcename:"1948 926 field_declaration,21,31" targetname:"1163 949 variable_declarators,29,30"}
+node:{title:"1163 949 variable_declarators,29,30" label:"variable_declarators 29 30" horizontal_order:30}
+edge:{sourcename:"1163 949 variable_declarators,29,30" targetname:"1164 955 variable_declarator,29,30"}
+node:{title:"1164 955 variable_declarator,29,30" label:"variable_declarator 29 30" horizontal_order:30}
+edge:{sourcename:"1164 955 variable_declarator,29,30" targetname:"1165 1685 identifier,29,30"}
+node:{title:"1165 1685 identifier,29,30" label:"identifier 29 30" horizontal_order:30}
+edge:{sourcename:"1165 1685 identifier,29,30" targetname:"1166 2 number,29,30"}
+node:{title:"1166 2 number,29,30" label:"number 29 30" horizontal_order:30}
+edge:{sourcename:"1948 926 field_declaration,21,31" targetname:"1167 28 ;,30,31"}
+node:{title:"1167 28 ;,30,31" label:"; 30 31" horizontal_order:31}
+edge:{sourcename:"1065 1327 struct_declaration,10,127" targetname:"1169 926 member_declaration,31,55"}
+node:{title:"1169 926 member_declaration,31,55" label:"member_declaration 31 55" horizontal_order:55}
+edge:{sourcename:"1169 926 member_declaration,31,55" targetname:"1956 926 field_declaration,31,55"}
+node:{title:"1956 926 field_declaration,31,55" label:"field_declaration 31 55" horizontal_order:55}
+edge:{sourcename:"1956 926 field_declaration,31,55" targetname:"1173 1606 attribute_section,31,37"}
+node:{title:"1173 1606 attribute_section,31,37" label:"attribute_section 31 37" horizontal_order:37}
+edge:{sourcename:"1173 1606 attribute_section,31,37" targetname:"1174 41 [,31,32"}
+node:{title:"1174 41 [,31,32" label:"[ 31 32" horizontal_order:32}
+edge:{sourcename:"1173 1606 attribute_section,31,37" targetname:"1175 1622 attribute_list,32,36"}
+node:{title:"1175 1622 attribute_list,32,36" label:"attribute_list 32 36" horizontal_order:36}
+edge:{sourcename:"1175 1622 attribute_list,32,36" targetname:"1176 1628 attribute,32,36"}
+node:{title:"1176 1628 attribute,32,36" label:"attribute 32 36" horizontal_order:36}
+edge:{sourcename:"1176 1628 attribute,32,36" targetname:"1180 1685 qualified_identifier,32,33"}
+node:{title:"1180 1685 qualified_identifier,32,33" label:"qualified_identifier 32 33" horizontal_order:33}
+edge:{sourcename:"1180 1685 qualified_identifier,32,33" targetname:"1949 1685 identifier,32,33"}
+node:{title:"1949 1685 identifier,32,33" label:"identifier 32 33" horizontal_order:33}
+edge:{sourcename:"1949 1685 identifier,32,33" targetname:"1181 2 FieldOffset,32,33"}
+node:{title:"1181 2 FieldOffset,32,33" label:"FieldOffset 32 33" horizontal_order:33}
+edge:{sourcename:"1176 1628 attribute,32,36" targetname:"1182 1636 attribute_arguments,33,36"}
+node:{title:"1182 1636 attribute_arguments,33,36" label:"attribute_arguments 33 36" horizontal_order:36}
+edge:{sourcename:"1182 1636 attribute_arguments,33,36" targetname:"1183 13 (,33,34"}
+node:{title:"1183 13 (,33,34" label:"( 33 34" horizontal_order:34}
+edge:{sourcename:"1182 1636 attribute_arguments,33,36" targetname:"1187 478 expression,34,35"}
+node:{title:"1187 478 expression,34,35" label:"expression 34 35" horizontal_order:35}
+edge:{sourcename:"1187 478 expression,34,35" targetname:"1202 1667 literal,34,35"}
+node:{title:"1202 1667 literal,34,35" label:"literal 34 35" horizontal_order:35}
+edge:{sourcename:"1202 1667 literal,34,35" targetname:"1203 3 8,34,35"}
+node:{title:"1203 3 8,34,35" label:"8 34 35" horizontal_order:35}
+edge:{sourcename:"1182 1636 attribute_arguments,33,36" targetname:"1204 14 ),35,36"}
+node:{title:"1204 14 ),35,36" label:") 35 36" horizontal_order:36}
+edge:{sourcename:"1173 1606 attribute_section,31,37" targetname:"1205 42 ],36,37"}
+node:{title:"1205 42 ],36,37" label:"] 36 37" horizontal_order:37}
+edge:{sourcename:"1956 926 field_declaration,31,55" targetname:"1206 1606 attribute_section,37,49"}
+node:{title:"1206 1606 attribute_section,37,49" label:"attribute_section 37 49" horizontal_order:49}
+edge:{sourcename:"1206 1606 attribute_section,37,49" targetname:"1207 41 [,37,38"}
+node:{title:"1207 41 [,37,38" label:"[ 37 38" horizontal_order:38}
+edge:{sourcename:"1206 1606 attribute_section,37,49" targetname:"1208 1622 attribute_list,38,48"}
+node:{title:"1208 1622 attribute_list,38,48" label:"attribute_list 38 48" horizontal_order:48}
+edge:{sourcename:"1208 1622 attribute_list,38,48" targetname:"1209 1628 attribute,38,48"}
+node:{title:"1209 1628 attribute,38,48" label:"attribute 38 48" horizontal_order:48}
+edge:{sourcename:"1209 1628 attribute,38,48" targetname:"1213 1685 qualified_identifier,38,39"}
+node:{title:"1213 1685 qualified_identifier,38,39" label:"qualified_identifier 38 39" horizontal_order:39}
+edge:{sourcename:"1213 1685 qualified_identifier,38,39" targetname:"1950 1685 identifier,38,39"}
+node:{title:"1950 1685 identifier,38,39" label:"identifier 38 39" horizontal_order:39}
+edge:{sourcename:"1950 1685 identifier,38,39" targetname:"1214 2 MarshalAs,38,39"}
+node:{title:"1214 2 MarshalAs,38,39" label:"MarshalAs 38 39" horizontal_order:39}
+edge:{sourcename:"1209 1628 attribute,38,48" targetname:"1215 1636 attribute_arguments,39,48"}
+node:{title:"1215 1636 attribute_arguments,39,48" label:"attribute_arguments 39 48" horizontal_order:48}
+edge:{sourcename:"1215 1636 attribute_arguments,39,48" targetname:"1216 0  EOS $,39,48"}
+node:{title:"1216 0  EOS $,39,48" label:" EOS $ 39 48" horizontal_order:48}
+edge:{sourcename:"1216 0  EOS $,39,48" targetname:"1217 13 (,39,40"}
+node:{title:"1217 13 (,39,40" label:"( 39 40" horizontal_order:40}
+edge:{sourcename:"1216 0  EOS $,39,48" targetname:"1222 478 expression,40,43"}
+node:{title:"1222 478 expression,40,43" label:"expression 40 43" horizontal_order:43}
+edge:{sourcename:"1222 478 expression,40,43" targetname:"1241 1685 expression,40,41"}
+node:{title:"1241 1685 expression,40,41" label:"expression 40 41" horizontal_order:41}
+edge:{sourcename:"1241 1685 expression,40,41" targetname:"1951 1685 identifier,40,41"}
+node:{title:"1951 1685 identifier,40,41" label:"identifier 40 41" horizontal_order:41}
+edge:{sourcename:"1951 1685 identifier,40,41" targetname:"1242 2 UnmanagedType,40,41"}
+node:{title:"1242 2 UnmanagedType,40,41" label:"UnmanagedType 40 41" horizontal_order:41}
+edge:{sourcename:"1222 478 expression,40,43" targetname:"1243 24 .,41,42"}
+node:{title:"1243 24 .,41,42" label:". 41 42" horizontal_order:42}
+edge:{sourcename:"1222 478 expression,40,43" targetname:"1244 1685 identifier,42,43"}
+node:{title:"1244 1685 identifier,42,43" label:"identifier 42 43" horizontal_order:43}
+edge:{sourcename:"1244 1685 identifier,42,43" targetname:"1245 2 ByValArray,42,43"}
+node:{title:"1245 2 ByValArray,42,43" label:"ByValArray 42 43" horizontal_order:43}
+edge:{sourcename:"1216 0  EOS $,39,48" targetname:"1246 20 ,,43,44"}
+node:{title:"1246 20 ,,43,44" label:", 43 44" horizontal_order:44}
+edge:{sourcename:"1216 0  EOS $,39,48" targetname:"1249 478 expression,44,47"}
+node:{title:"1249 478 expression,44,47" label:"expression 44 47" horizontal_order:47}
+edge:{sourcename:"1249 478 expression,44,47" targetname:"1255 1685 expression,44,45"}
+node:{title:"1255 1685 expression,44,45" label:"expression 44 45" horizontal_order:45}
+edge:{sourcename:"1255 1685 expression,44,45" targetname:"1952 1685 identifier,44,45"}
+node:{title:"1952 1685 identifier,44,45" label:"identifier 44 45" horizontal_order:45}
+edge:{sourcename:"1952 1685 identifier,44,45" targetname:"1256 2 SizeConst,44,45"}
+node:{title:"1256 2 SizeConst,44,45" label:"SizeConst 44 45" horizontal_order:45}
+edge:{sourcename:"1249 478 expression,44,47" targetname:"1257 466 assignment_operator,45,46"}
+node:{title:"1257 466 assignment_operator,45,46" label:"assignment_operator 45 46" horizontal_order:46}
+edge:{sourcename:"1257 466 assignment_operator,45,46" targetname:"1258 33 =,45,46"}
+node:{title:"1258 33 =,45,46" label:"= 45 46" horizontal_order:46}
+edge:{sourcename:"1249 478 expression,44,47" targetname:"1259 478 expression,46,47"}
+node:{title:"1259 478 expression,46,47" label:"expression 46 47" horizontal_order:47}
+edge:{sourcename:"1259 478 expression,46,47" targetname:"1274 1667 literal,46,47"}
+node:{title:"1274 1667 literal,46,47" label:"literal 46 47" horizontal_order:47}
+edge:{sourcename:"1274 1667 literal,46,47" targetname:"1275 3 1024,46,47"}
+node:{title:"1275 3 1024,46,47" label:"1024 46 47" horizontal_order:47}
+edge:{sourcename:"1216 0  EOS $,39,48" targetname:"1276 14 ),47,48"}
+node:{title:"1276 14 ),47,48" label:") 47 48" horizontal_order:48}
+edge:{sourcename:"1215 1636 attribute_arguments,39,48" targetname:"1277 0  EOS $,39,48"}
+node:{title:"1277 0  EOS $,39,48" label:" EOS $ 39 48" horizontal_order:48}
+edge:{sourcename:"1277 0  EOS $,39,48" targetname:"1278 13 (,39,40"}
+node:{title:"1278 13 (,39,40" label:"( 39 40" horizontal_order:40}
+edge:{sourcename:"1277 0  EOS $,39,48" targetname:"1282 478 expression,40,43"}
+node:{title:"1282 478 expression,40,43" label:"expression 40 43" horizontal_order:43}
+edge:{sourcename:"1282 478 expression,40,43" targetname:"1301 1685 expression,40,41"}
+node:{title:"1301 1685 expression,40,41" label:"expression 40 41" horizontal_order:41}
+edge:{sourcename:"1301 1685 expression,40,41" targetname:"1953 1685 identifier,40,41"}
+node:{title:"1953 1685 identifier,40,41" label:"identifier 40 41" horizontal_order:41}
+edge:{sourcename:"1953 1685 identifier,40,41" targetname:"1302 2 UnmanagedType,40,41"}
+node:{title:"1302 2 UnmanagedType,40,41" label:"UnmanagedType 40 41" horizontal_order:41}
+edge:{sourcename:"1282 478 expression,40,43" targetname:"1303 24 .,41,42"}
+node:{title:"1303 24 .,41,42" label:". 41 42" horizontal_order:42}
+edge:{sourcename:"1282 478 expression,40,43" targetname:"1304 1685 identifier,42,43"}
+node:{title:"1304 1685 identifier,42,43" label:"identifier 42 43" horizontal_order:43}
+edge:{sourcename:"1304 1685 identifier,42,43" targetname:"1305 2 ByValArray,42,43"}
+node:{title:"1305 2 ByValArray,42,43" label:"ByValArray 42 43" horizontal_order:43}
+edge:{sourcename:"1277 0  EOS $,39,48" targetname:"1306 20 ,,43,44"}
+node:{title:"1306 20 ,,43,44" label:", 43 44" horizontal_order:44}
+edge:{sourcename:"1277 0  EOS $,39,48" targetname:"1307 1654 named_argument_list,44,47"}
+node:{title:"1307 1654 named_argument_list,44,47" label:"named_argument_list 44 47" horizontal_order:47}
+edge:{sourcename:"1307 1654 named_argument_list,44,47" targetname:"1308 1660 named_argument,44,47"}
+node:{title:"1308 1660 named_argument,44,47" label:"named_argument 44 47" horizontal_order:47}
+edge:{sourcename:"1308 1660 named_argument,44,47" targetname:"1309 1685 identifier,44,45"}
+node:{title:"1309 1685 identifier,44,45" label:"identifier 44 45" horizontal_order:45}
+edge:{sourcename:"1309 1685 identifier,44,45" targetname:"1310 2 SizeConst,44,45"}
+node:{title:"1310 2 SizeConst,44,45" label:"SizeConst 44 45" horizontal_order:45}
+edge:{sourcename:"1308 1660 named_argument,44,47" targetname:"1311 33 =,45,46"}
+node:{title:"1311 33 =,45,46" label:"= 45 46" horizontal_order:46}
+edge:{sourcename:"1308 1660 named_argument,44,47" targetname:"1313 478 expression,46,47"}
+node:{title:"1313 478 expression,46,47" label:"expression 46 47" horizontal_order:47}
+edge:{sourcename:"1313 478 expression,46,47" targetname:"1328 1667 literal,46,47"}
+node:{title:"1328 1667 literal,46,47" label:"literal 46 47" horizontal_order:47}
+edge:{sourcename:"1328 1667 literal,46,47" targetname:"1329 3 1024,46,47"}
+node:{title:"1329 3 1024,46,47" label:"1024 46 47" horizontal_order:47}
+edge:{sourcename:"1277 0  EOS $,39,48" targetname:"1330 14 ),47,48"}
+node:{title:"1330 14 ),47,48" label:") 47 48" horizontal_order:48}
+edge:{sourcename:"1206 1606 attribute_section,37,49" targetname:"1331 42 ],48,49"}
+node:{title:"1331 42 ],48,49" label:"] 48 49" horizontal_order:49}
+edge:{sourcename:"1956 926 field_declaration,31,55" targetname:"1334 79 modifier,49,50"}
+node:{title:"1334 79 modifier,49,50" label:"modifier 49 50" horizontal_order:50}
+edge:{sourcename:"1334 79 modifier,49,50" targetname:"1954 79 internal,49,50"}
+node:{title:"1954 79 internal,49,50" label:"internal 49 50" horizontal_order:50}
+edge:{sourcename:"1956 926 field_declaration,31,55" targetname:"1335 137 type,50,53"}
+node:{title:"1335 137 type,50,53" label:"type 50 53" horizontal_order:53}
+edge:{sourcename:"1335 137 type,50,53" targetname:"1337 1384 array_type,50,53"}
+node:{title:"1337 1384 array_type,50,53" label:"array_type 50 53" horizontal_order:53}
+edge:{sourcename:"1337 1384 array_type,50,53" targetname:"1339 137 type,50,51"}
+node:{title:"1339 137 type,50,51" label:"type 50 51" horizontal_order:51}
+edge:{sourcename:"1339 137 type,50,51" targetname:"1344 162 predefined_type,50,51"}
+node:{title:"1344 162 predefined_type,50,51" label:"predefined_type 50 51" horizontal_order:51}
+edge:{sourcename:"1344 162 predefined_type,50,51" targetname:"1955 162 integral_type,50,51"}
+node:{title:"1955 162 integral_type,50,51" label:"integral_type 50 51" horizontal_order:51}
+edge:{sourcename:"1955 162 integral_type,50,51" targetname:"1345 50 byte,50,51"}
+node:{title:"1345 50 byte,50,51" label:"byte 50 51" horizontal_order:51}
+edge:{sourcename:"1337 1384 array_type,50,53" targetname:"1347 1397 rank_specifier,51,53"}
+node:{title:"1347 1397 rank_specifier,51,53" label:"rank_specifier 51 53" horizontal_order:53}
+edge:{sourcename:"1347 1397 rank_specifier,51,53" targetname:"1348 41 [,51,52"}
+node:{title:"1348 41 [,51,52" label:"[ 51 52" horizontal_order:52}
+edge:{sourcename:"1347 1397 rank_specifier,51,53" targetname:"1349 42 ],52,53"}
+node:{title:"1349 42 ],52,53" label:"] 52 53" horizontal_order:53}
+edge:{sourcename:"1956 926 field_declaration,31,55" targetname:"1350 949 variable_declarators,53,54"}
+node:{title:"1350 949 variable_declarators,53,54" label:"variable_declarators 53 54" horizontal_order:54}
+edge:{sourcename:"1350 949 variable_declarators,53,54" targetname:"1351 955 variable_declarator,53,54"}
+node:{title:"1351 955 variable_declarator,53,54" label:"variable_declarator 53 54" horizontal_order:54}
+edge:{sourcename:"1351 955 variable_declarator,53,54" targetname:"1352 1685 identifier,53,54"}
+node:{title:"1352 1685 identifier,53,54" label:"identifier 53 54" horizontal_order:54}
+edge:{sourcename:"1352 1685 identifier,53,54" targetname:"1353 2 stuff,53,54"}
+node:{title:"1353 2 stuff,53,54" label:"stuff 53 54" horizontal_order:54}
+edge:{sourcename:"1956 926 field_declaration,31,55" targetname:"1354 28 ;,54,55"}
+node:{title:"1354 28 ;,54,55" label:"; 54 55" horizontal_order:55}
+edge:{sourcename:"1065 1327 struct_declaration,10,127" targetname:"1356 966 member_declaration,55,126"}
+node:{title:"1356 966 member_declaration,55,126" label:"member_declaration 55 126" horizontal_order:126}
+edge:{sourcename:"1356 966 member_declaration,55,126" targetname:"1985 966 method_declaration,55,126"}
+node:{title:"1985 966 method_declaration,55,126" label:"method_declaration 55 126" horizontal_order:126}
+edge:{sourcename:"1985 966 method_declaration,55,126" targetname:"1360 100 modifier,55,56"}
+node:{title:"1360 100 modifier,55,56" label:"modifier 55 56" horizontal_order:56}
+edge:{sourcename:"1360 100 modifier,55,56" targetname:"1957 100 static,55,56"}
+node:{title:"1957 100 static,55,56" label:"static 55 56" horizontal_order:56}
+edge:{sourcename:"1985 966 method_declaration,55,126" targetname:"1362 137 type,56,57"}
+node:{title:"1362 137 type,56,57" label:"type 56 57" horizontal_order:57}
+edge:{sourcename:"1362 137 type,56,57" targetname:"1367 162 predefined_type,56,57"}
+node:{title:"1367 162 predefined_type,56,57" label:"predefined_type 56 57" horizontal_order:57}
+edge:{sourcename:"1367 162 predefined_type,56,57" targetname:"1958 162 integral_type,56,57"}
+node:{title:"1958 162 integral_type,56,57" label:"integral_type 56 57" horizontal_order:57}
+edge:{sourcename:"1958 162 integral_type,56,57" targetname:"1368 77 int,56,57"}
+node:{title:"1368 77 int,56,57" label:"int 56 57" horizontal_order:57}
+edge:{sourcename:"1985 966 method_declaration,55,126" targetname:"1370 1685 identifier,57,58"}
+node:{title:"1370 1685 identifier,57,58" label:"identifier 57 58" horizontal_order:58}
+edge:{sourcename:"1370 1685 identifier,57,58" targetname:"1371 2 Main,57,58"}
+node:{title:"1371 2 Main,57,58" label:"Main 57 58" horizontal_order:58}
+edge:{sourcename:"1985 966 method_declaration,55,126" targetname:"1372 13 (,58,59"}
+node:{title:"1372 13 (,58,59" label:"( 58 59" horizontal_order:59}
+edge:{sourcename:"1985 966 method_declaration,55,126" targetname:"1373 14 ),59,60"}
+node:{title:"1373 14 ),59,60" label:") 59 60" horizontal_order:60}
+edge:{sourcename:"1985 966 method_declaration,55,126" targetname:"1375 519 body,60,126"}
+node:{title:"1375 519 body,60,126" label:"body 60 126" horizontal_order:126}
+edge:{sourcename:"1375 519 body,60,126" targetname:"1984 519 block,60,126"}
+node:{title:"1984 519 block,60,126" label:"block 60 126" horizontal_order:126}
+edge:{sourcename:"1984 519 block,60,126" targetname:"1376 118 {,60,61"}
+node:{title:"1376 118 {,60,61" label:"{ 60 61" horizontal_order:61}
+edge:{sourcename:"1984 519 block,60,126" targetname:"1384 489 statement,61,74"}
+node:{title:"1384 489 statement,61,74" label:"statement 61 74" horizontal_order:74}
+edge:{sourcename:"1384 489 statement,61,74" targetname:"1385 535 declaration_statement,61,74"}
+node:{title:"1385 535 declaration_statement,61,74" label:"declaration_statement 61 74" horizontal_order:74}
+edge:{sourcename:"1385 535 declaration_statement,61,74" targetname:"1386 540 local_variable_declaration,61,73"}
+node:{title:"1386 540 local_variable_declaration,61,73" label:"local_variable_declaration 61 73" horizontal_order:73}
+edge:{sourcename:"1386 540 local_variable_declaration,61,73" targetname:"1387 137 type,61,62"}
+node:{title:"1387 137 type,61,62" label:"type 61 62" horizontal_order:62}
+edge:{sourcename:"1387 137 type,61,62" targetname:"1392 162 predefined_type,61,62"}
+node:{title:"1392 162 predefined_type,61,62" label:"predefined_type 61 62" horizontal_order:62}
+edge:{sourcename:"1392 162 predefined_type,61,62" targetname:"1959 162 integral_type,61,62"}
+node:{title:"1959 162 integral_type,61,62" label:"integral_type 61 62" horizontal_order:62}
+edge:{sourcename:"1959 162 integral_type,61,62" targetname:"1393 77 int,61,62"}
+node:{title:"1393 77 int,61,62" label:"int 61 62" horizontal_order:62}
+edge:{sourcename:"1386 540 local_variable_declaration,61,73" targetname:"1396 1685 variable_declarator,62,73"}
+node:{title:"1396 1685 variable_declarator,62,73" label:"variable_declarator 62 73" horizontal_order:73}
+edge:{sourcename:"1396 1685 variable_declarator,62,73" targetname:"1964 1685 identifier,62,63"}
+node:{title:"1964 1685 identifier,62,63" label:"identifier 62 63" horizontal_order:63}
+edge:{sourcename:"1964 1685 identifier,62,63" targetname:"1397 2 size,62,63"}
+node:{title:"1397 2 size,62,63" label:"size 62 63" horizontal_order:63}
+edge:{sourcename:"1396 1685 variable_declarator,62,73" targetname:"1398 33 =,63,64"}
+node:{title:"1398 33 =,63,64" label:"= 63 64" horizontal_order:64}
+edge:{sourcename:"1396 1685 variable_declarator,62,73" targetname:"1400 478 variable_initializer,64,73"}
+node:{title:"1400 478 variable_initializer,64,73" label:"variable_initializer 64 73" horizontal_order:73}
+edge:{sourcename:"1400 478 variable_initializer,64,73" targetname:"1963 478 expression,64,73"}
+node:{title:"1963 478 expression,64,73" label:"expression 64 73" horizontal_order:73}
+edge:{sourcename:"1963 478 expression,64,73" targetname:"1422 1685 expression,64,67"}
+node:{title:"1422 1685 expression,64,67" label:"expression 64 67" horizontal_order:67}
+edge:{sourcename:"1422 1685 expression,64,67" targetname:"1961 1685 expression,64,65"}
+node:{title:"1961 1685 expression,64,65" label:"expression 64 65" horizontal_order:65}
+edge:{sourcename:"1961 1685 expression,64,65" targetname:"1960 1685 identifier,64,65"}
+node:{title:"1960 1685 identifier,64,65" label:"identifier 64 65" horizontal_order:65}
+edge:{sourcename:"1960 1685 identifier,64,65" targetname:"1423 2 Marshal,64,65"}
+node:{title:"1423 2 Marshal,64,65" label:"Marshal 64 65" horizontal_order:65}
+edge:{sourcename:"1422 1685 expression,64,67" targetname:"1424 24 .,65,66"}
+node:{title:"1424 24 .,65,66" label:". 65 66" horizontal_order:66}
+edge:{sourcename:"1422 1685 expression,64,67" targetname:"1425 1685 identifier,66,67"}
+node:{title:"1425 1685 identifier,66,67" label:"identifier 66 67" horizontal_order:67}
+edge:{sourcename:"1425 1685 identifier,66,67" targetname:"1426 2 SizeOf,66,67"}
+node:{title:"1426 2 SizeOf,66,67" label:"SizeOf 66 67" horizontal_order:67}
+edge:{sourcename:"1963 478 expression,64,73" targetname:"1427 13 (,67,68"}
+node:{title:"1427 13 (,67,68" label:"( 67 68" horizontal_order:68}
+edge:{sourcename:"1963 478 expression,64,73" targetname:"1428 201 argument_list,68,72"}
+node:{title:"1428 201 argument_list,68,72" label:"argument_list 68 72" horizontal_order:72}
+edge:{sourcename:"1428 201 argument_list,68,72" targetname:"1429 207 argument,68,72"}
+node:{title:"1429 207 argument,68,72" label:"argument 68 72" horizontal_order:72}
+edge:{sourcename:"1429 207 argument,68,72" targetname:"1430 478 expression,68,72"}
+node:{title:"1430 478 expression,68,72" label:"expression 68 72" horizontal_order:72}
+edge:{sourcename:"1430 478 expression,68,72" targetname:"1446 108 typeof,68,69"}
+node:{title:"1446 108 typeof,68,69" label:"typeof 68 69" horizontal_order:69}
+edge:{sourcename:"1430 478 expression,68,72" targetname:"1447 13 (,69,70"}
+node:{title:"1447 13 (,69,70" label:"( 69 70" horizontal_order:70}
+edge:{sourcename:"1430 478 expression,68,72" targetname:"1448 137 type,70,71"}
+node:{title:"1448 137 type,70,71" label:"type 70 71" horizontal_order:71}
+edge:{sourcename:"1448 137 type,70,71" targetname:"1453 1685 qualified_identifier,70,71"}
+node:{title:"1453 1685 qualified_identifier,70,71" label:"qualified_identifier 70 71" horizontal_order:71}
+edge:{sourcename:"1453 1685 qualified_identifier,70,71" targetname:"1962 1685 identifier,70,71"}
+node:{title:"1962 1685 identifier,70,71" label:"identifier 70 71" horizontal_order:71}
+edge:{sourcename:"1962 1685 identifier,70,71" targetname:"1454 2 TestStructure,70,71"}
+node:{title:"1454 2 TestStructure,70,71" label:"TestStructure 70 71" horizontal_order:71}
+edge:{sourcename:"1430 478 expression,68,72" targetname:"1455 14 ),71,72"}
+node:{title:"1455 14 ),71,72" label:") 71 72" horizontal_order:72}
+edge:{sourcename:"1963 478 expression,64,73" targetname:"1456 14 ),72,73"}
+node:{title:"1456 14 ),72,73" label:") 72 73" horizontal_order:73}
+edge:{sourcename:"1385 535 declaration_statement,61,74" targetname:"1457 28 ;,73,74"}
+node:{title:"1457 28 ;,73,74" label:"; 73 74" horizontal_order:74}
+edge:{sourcename:"1984 519 block,60,126" targetname:"1458 489 statement,74,83"}
+node:{title:"1458 489 statement,74,83" label:"statement 74 83" horizontal_order:83}
+edge:{sourcename:"1458 489 statement,74,83" targetname:"1459 496 embedded_statement,74,83"}
+node:{title:"1459 496 embedded_statement,74,83" label:"embedded_statement 74 83" horizontal_order:83}
+edge:{sourcename:"1459 496 embedded_statement,74,83" targetname:"1469 1685 expression,74,82"}
+node:{title:"1469 1685 expression,74,82" label:"expression 74 82" horizontal_order:82}
+edge:{sourcename:"1469 1685 expression,74,82" targetname:"1967 1685 expression,74,77"}
+node:{title:"1967 1685 expression,74,77" label:"expression 74 77" horizontal_order:77}
+edge:{sourcename:"1967 1685 expression,74,77" targetname:"1966 1685 expression,74,75"}
+node:{title:"1966 1685 expression,74,75" label:"expression 74 75" horizontal_order:75}
+edge:{sourcename:"1966 1685 expression,74,75" targetname:"1965 1685 identifier,74,75"}
+node:{title:"1965 1685 identifier,74,75" label:"identifier 74 75" horizontal_order:75}
+edge:{sourcename:"1965 1685 identifier,74,75" targetname:"1470 2 Console,74,75"}
+node:{title:"1470 2 Console,74,75" label:"Console 74 75" horizontal_order:75}
+edge:{sourcename:"1967 1685 expression,74,77" targetname:"1471 24 .,75,76"}
+node:{title:"1471 24 .,75,76" label:". 75 76" horizontal_order:76}
+edge:{sourcename:"1967 1685 expression,74,77" targetname:"1472 1685 identifier,76,77"}
+node:{title:"1472 1685 identifier,76,77" label:"identifier 76 77" horizontal_order:77}
+edge:{sourcename:"1472 1685 identifier,76,77" targetname:"1473 2 WriteLine,76,77"}
+node:{title:"1473 2 WriteLine,76,77" label:"WriteLine 76 77" horizontal_order:77}
+edge:{sourcename:"1469 1685 expression,74,82" targetname:"1474 13 (,77,78"}
+node:{title:"1474 13 (,77,78" label:"( 77 78" horizontal_order:78}
+edge:{sourcename:"1469 1685 expression,74,82" targetname:"1475 201 argument_list,78,81"}
+node:{title:"1475 201 argument_list,78,81" label:"argument_list 78 81" horizontal_order:81}
+edge:{sourcename:"1475 201 argument_list,78,81" targetname:"1477 207 argument,78,79"}
+node:{title:"1477 207 argument,78,79" label:"argument 78 79" horizontal_order:79}
+edge:{sourcename:"1477 207 argument,78,79" targetname:"1478 478 expression,78,79"}
+node:{title:"1478 478 expression,78,79" label:"expression 78 79" horizontal_order:79}
+edge:{sourcename:"1478 478 expression,78,79" targetname:"1493 1667 literal,78,79"}
+node:{title:"1493 1667 literal,78,79" label:"literal 78 79" horizontal_order:79}
+edge:{sourcename:"1493 1667 literal,78,79" targetname:"1495 5 \"Size of t: {0}\",78,79"}
+node:{title:"1495 5 \"Size of t: {0}\",78,79" label:"\"Size of t: {0}\" 78 79" horizontal_order:79}
+edge:{sourcename:"1475 201 argument_list,78,81" targetname:"1496 20 ,,79,80"}
+node:{title:"1496 20 ,,79,80" label:", 79 80" horizontal_order:80}
+edge:{sourcename:"1475 201 argument_list,78,81" targetname:"1497 207 argument,80,81"}
+node:{title:"1497 207 argument,80,81" label:"argument 80 81" horizontal_order:81}
+edge:{sourcename:"1497 207 argument,80,81" targetname:"1498 478 expression,80,81"}
+node:{title:"1498 478 expression,80,81" label:"expression 80 81" horizontal_order:81}
+edge:{sourcename:"1498 478 expression,80,81" targetname:"1514 1685 identifier,80,81"}
+node:{title:"1514 1685 identifier,80,81" label:"identifier 80 81" horizontal_order:81}
+edge:{sourcename:"1514 1685 identifier,80,81" targetname:"1515 2 size,80,81"}
+node:{title:"1515 2 size,80,81" label:"size 80 81" horizontal_order:81}
+edge:{sourcename:"1469 1685 expression,74,82" targetname:"1516 14 ),81,82"}
+node:{title:"1516 14 ),81,82" label:") 81 82" horizontal_order:82}
+edge:{sourcename:"1459 496 embedded_statement,74,83" targetname:"1517 28 ;,82,83"}
+node:{title:"1517 28 ;,82,83" label:"; 82 83" horizontal_order:83}
+edge:{sourcename:"1984 519 block,60,126" targetname:"1518 489 statement,83,92"}
+node:{title:"1518 489 statement,83,92" label:"statement 83 92" horizontal_order:92}
+edge:{sourcename:"1518 489 statement,83,92" targetname:"1519 496 embedded_statement,83,92"}
+node:{title:"1519 496 embedded_statement,83,92" label:"embedded_statement 83 92" horizontal_order:92}
+edge:{sourcename:"1519 496 embedded_statement,83,92" targetname:"1522 74 if,83,84"}
+node:{title:"1522 74 if,83,84" label:"if 83 84" horizontal_order:84}
+edge:{sourcename:"1519 496 embedded_statement,83,92" targetname:"1523 13 (,84,85"}
+node:{title:"1523 13 (,84,85" label:"( 84 85" horizontal_order:85}
+edge:{sourcename:"1519 496 embedded_statement,83,92" targetname:"1525 478 expression,85,88"}
+node:{title:"1525 478 expression,85,88" label:"expression 85 88" horizontal_order:88}
+edge:{sourcename:"1525 478 expression,85,88" targetname:"1542 1685 expression,85,86"}
+node:{title:"1542 1685 expression,85,86" label:"expression 85 86" horizontal_order:86}
+edge:{sourcename:"1542 1685 expression,85,86" targetname:"1968 1685 identifier,85,86"}
+node:{title:"1968 1685 identifier,85,86" label:"identifier 85 86" horizontal_order:86}
+edge:{sourcename:"1968 1685 identifier,85,86" targetname:"1543 2 size,85,86"}
+node:{title:"1543 2 size,85,86" label:"size 85 86" horizontal_order:86}
+edge:{sourcename:"1525 478 expression,85,88" targetname:"1544 7 binary_operator,86,87"}
+node:{title:"1544 7 binary_operator,86,87" label:"binary_operator 86 87" horizontal_order:87}
+edge:{sourcename:"1544 7 binary_operator,86,87" targetname:"1970 7 overloadable_binary_operator,86,87"}
+node:{title:"1970 7 overloadable_binary_operator,86,87" label:"overloadable_binary_operator 86 87" horizontal_order:87}
+edge:{sourcename:"1970 7 overloadable_binary_operator,86,87" targetname:"1969 7 !=,86,87"}
+node:{title:"1969 7 !=,86,87" label:"!= 86 87" horizontal_order:87}
+edge:{sourcename:"1525 478 expression,85,88" targetname:"1552 1667 expression,87,88"}
+node:{title:"1552 1667 expression,87,88" label:"expression 87 88" horizontal_order:88}
+edge:{sourcename:"1552 1667 expression,87,88" targetname:"1971 1667 literal,87,88"}
+node:{title:"1971 1667 literal,87,88" label:"literal 87 88" horizontal_order:88}
+edge:{sourcename:"1971 1667 literal,87,88" targetname:"1553 3 1032,87,88"}
+node:{title:"1553 3 1032,87,88" label:"1032 87 88" horizontal_order:88}
+edge:{sourcename:"1519 496 embedded_statement,83,92" targetname:"1554 14 ),88,89"}
+node:{title:"1554 14 ),88,89" label:") 88 89" horizontal_order:89}
+edge:{sourcename:"1519 496 embedded_statement,83,92" targetname:"1555 496 embedded_statement,89,92"}
+node:{title:"1555 496 embedded_statement,89,92" label:"embedded_statement 89 92" horizontal_order:92}
+edge:{sourcename:"1555 496 embedded_statement,89,92" targetname:"1558 96 return,89,90"}
+node:{title:"1558 96 return,89,90" label:"return 89 90" horizontal_order:90}
+edge:{sourcename:"1555 496 embedded_statement,89,92" targetname:"1559 478 expression,90,91"}
+node:{title:"1559 478 expression,90,91" label:"expression 90 91" horizontal_order:91}
+edge:{sourcename:"1559 478 expression,90,91" targetname:"1574 1667 literal,90,91"}
+node:{title:"1574 1667 literal,90,91" label:"literal 90 91" horizontal_order:91}
+edge:{sourcename:"1574 1667 literal,90,91" targetname:"1575 3 1,90,91"}
+node:{title:"1575 3 1,90,91" label:"1 90 91" horizontal_order:91}
+edge:{sourcename:"1555 496 embedded_statement,89,92" targetname:"1576 28 ;,91,92"}
+node:{title:"1576 28 ;,91,92" label:"; 91 92" horizontal_order:92}
+edge:{sourcename:"1984 519 block,60,126" targetname:"1577 489 statement,92,104"}
+node:{title:"1577 489 statement,92,104" label:"statement 92 104" horizontal_order:104}
+edge:{sourcename:"1577 489 statement,92,104" targetname:"1578 496 embedded_statement,92,104"}
+node:{title:"1578 496 embedded_statement,92,104" label:"embedded_statement 92 104" horizontal_order:104}
+edge:{sourcename:"1578 496 embedded_statement,92,104" targetname:"1586 1685 expression,92,103"}
+node:{title:"1586 1685 expression,92,103" label:"expression 92 103" horizontal_order:103}
+edge:{sourcename:"1586 1685 expression,92,103" targetname:"1976 1685 expression,92,93"}
+node:{title:"1976 1685 expression,92,93" label:"expression 92 93" horizontal_order:93}
+edge:{sourcename:"1976 1685 expression,92,93" targetname:"1972 1685 identifier,92,93"}
+node:{title:"1972 1685 identifier,92,93" label:"identifier 92 93" horizontal_order:93}
+edge:{sourcename:"1972 1685 identifier,92,93" targetname:"1587 2 size,92,93"}
+node:{title:"1587 2 size,92,93" label:"size 92 93" horizontal_order:93}
+edge:{sourcename:"1586 1685 expression,92,103" targetname:"1588 466 assignment_operator,93,94"}
+node:{title:"1588 466 assignment_operator,93,94" label:"assignment_operator 93 94" horizontal_order:94}
+edge:{sourcename:"1588 466 assignment_operator,93,94" targetname:"1589 33 =,93,94"}
+node:{title:"1589 33 =,93,94" label:"= 93 94" horizontal_order:94}
+edge:{sourcename:"1586 1685 expression,92,103" targetname:"1590 478 expression,94,103"}
+node:{title:"1590 478 expression,94,103" label:"expression 94 103" horizontal_order:103}
+edge:{sourcename:"1590 478 expression,94,103" targetname:"1612 1685 expression,94,97"}
+node:{title:"1612 1685 expression,94,97" label:"expression 94 97" horizontal_order:97}
+edge:{sourcename:"1612 1685 expression,94,97" targetname:"1974 1685 expression,94,95"}
+node:{title:"1974 1685 expression,94,95" label:"expression 94 95" horizontal_order:95}
+edge:{sourcename:"1974 1685 expression,94,95" targetname:"1973 1685 identifier,94,95"}
+node:{title:"1973 1685 identifier,94,95" label:"identifier 94 95" horizontal_order:95}
+edge:{sourcename:"1973 1685 identifier,94,95" targetname:"1613 2 Marshal,94,95"}
+node:{title:"1613 2 Marshal,94,95" label:"Marshal 94 95" horizontal_order:95}
+edge:{sourcename:"1612 1685 expression,94,97" targetname:"1614 24 .,95,96"}
+node:{title:"1614 24 .,95,96" label:". 95 96" horizontal_order:96}
+edge:{sourcename:"1612 1685 expression,94,97" targetname:"1615 1685 identifier,96,97"}
+node:{title:"1615 1685 identifier,96,97" label:"identifier 96 97" horizontal_order:97}
+edge:{sourcename:"1615 1685 identifier,96,97" targetname:"1616 2 SizeOf,96,97"}
+node:{title:"1616 2 SizeOf,96,97" label:"SizeOf 96 97" horizontal_order:97}
+edge:{sourcename:"1590 478 expression,94,103" targetname:"1617 13 (,97,98"}
+node:{title:"1617 13 (,97,98" label:"( 97 98" horizontal_order:98}
+edge:{sourcename:"1590 478 expression,94,103" targetname:"1618 201 argument_list,98,102"}
+node:{title:"1618 201 argument_list,98,102" label:"argument_list 98 102" horizontal_order:102}
+edge:{sourcename:"1618 201 argument_list,98,102" targetname:"1619 207 argument,98,102"}
+node:{title:"1619 207 argument,98,102" label:"argument 98 102" horizontal_order:102}
+edge:{sourcename:"1619 207 argument,98,102" targetname:"1620 478 expression,98,102"}
+node:{title:"1620 478 expression,98,102" label:"expression 98 102" horizontal_order:102}
+edge:{sourcename:"1620 478 expression,98,102" targetname:"1636 108 typeof,98,99"}
+node:{title:"1636 108 typeof,98,99" label:"typeof 98 99" horizontal_order:99}
+edge:{sourcename:"1620 478 expression,98,102" targetname:"1637 13 (,99,100"}
+node:{title:"1637 13 (,99,100" label:"( 99 100" horizontal_order:100}
+edge:{sourcename:"1620 478 expression,98,102" targetname:"1638 137 type,100,101"}
+node:{title:"1638 137 type,100,101" label:"type 100 101" horizontal_order:101}
+edge:{sourcename:"1638 137 type,100,101" targetname:"1643 1685 qualified_identifier,100,101"}
+node:{title:"1643 1685 qualified_identifier,100,101" label:"qualified_identifier 100 101" horizontal_order:101}
+edge:{sourcename:"1643 1685 qualified_identifier,100,101" targetname:"1975 1685 identifier,100,101"}
+node:{title:"1975 1685 identifier,100,101" label:"identifier 100 101" horizontal_order:101}
+edge:{sourcename:"1975 1685 identifier,100,101" targetname:"1644 2 TestStructure2,100,101"}
+node:{title:"1644 2 TestStructure2,100,101" label:"TestStructure2 100 101" horizontal_order:101}
+edge:{sourcename:"1620 478 expression,98,102" targetname:"1645 14 ),101,102"}
+node:{title:"1645 14 ),101,102" label:") 101 102" horizontal_order:102}
+edge:{sourcename:"1590 478 expression,94,103" targetname:"1646 14 ),102,103"}
+node:{title:"1646 14 ),102,103" label:") 102 103" horizontal_order:103}
+edge:{sourcename:"1578 496 embedded_statement,92,104" targetname:"1647 28 ;,103,104"}
+node:{title:"1647 28 ;,103,104" label:"; 103 104" horizontal_order:104}
+edge:{sourcename:"1984 519 block,60,126" targetname:"1648 489 statement,104,113"}
+node:{title:"1648 489 statement,104,113" label:"statement 104 113" horizontal_order:113}
+edge:{sourcename:"1648 489 statement,104,113" targetname:"1649 496 embedded_statement,104,113"}
+node:{title:"1649 496 embedded_statement,104,113" label:"embedded_statement 104 113" horizontal_order:113}
+edge:{sourcename:"1649 496 embedded_statement,104,113" targetname:"1659 1685 expression,104,112"}
+node:{title:"1659 1685 expression,104,112" label:"expression 104 112" horizontal_order:112}
+edge:{sourcename:"1659 1685 expression,104,112" targetname:"1979 1685 expression,104,107"}
+node:{title:"1979 1685 expression,104,107" label:"expression 104 107" horizontal_order:107}
+edge:{sourcename:"1979 1685 expression,104,107" targetname:"1978 1685 expression,104,105"}
+node:{title:"1978 1685 expression,104,105" label:"expression 104 105" horizontal_order:105}
+edge:{sourcename:"1978 1685 expression,104,105" targetname:"1977 1685 identifier,104,105"}
+node:{title:"1977 1685 identifier,104,105" label:"identifier 104 105" horizontal_order:105}
+edge:{sourcename:"1977 1685 identifier,104,105" targetname:"1660 2 Console,104,105"}
+node:{title:"1660 2 Console,104,105" label:"Console 104 105" horizontal_order:105}
+edge:{sourcename:"1979 1685 expression,104,107" targetname:"1661 24 .,105,106"}
+node:{title:"1661 24 .,105,106" label:". 105 106" horizontal_order:106}
+edge:{sourcename:"1979 1685 expression,104,107" targetname:"1662 1685 identifier,106,107"}
+node:{title:"1662 1685 identifier,106,107" label:"identifier 106 107" horizontal_order:107}
+edge:{sourcename:"1662 1685 identifier,106,107" targetname:"1663 2 WriteLine,106,107"}
+node:{title:"1663 2 WriteLine,106,107" label:"WriteLine 106 107" horizontal_order:107}
+edge:{sourcename:"1659 1685 expression,104,112" targetname:"1664 13 (,107,108"}
+node:{title:"1664 13 (,107,108" label:"( 107 108" horizontal_order:108}
+edge:{sourcename:"1659 1685 expression,104,112" targetname:"1665 201 argument_list,108,111"}
+node:{title:"1665 201 argument_list,108,111" label:"argument_list 108 111" horizontal_order:111}
+edge:{sourcename:"1665 201 argument_list,108,111" targetname:"1667 207 argument,108,109"}
+node:{title:"1667 207 argument,108,109" label:"argument 108 109" horizontal_order:109}
+edge:{sourcename:"1667 207 argument,108,109" targetname:"1668 478 expression,108,109"}
+node:{title:"1668 478 expression,108,109" label:"expression 108 109" horizontal_order:109}
+edge:{sourcename:"1668 478 expression,108,109" targetname:"1683 1667 literal,108,109"}
+node:{title:"1683 1667 literal,108,109" label:"literal 108 109" horizontal_order:109}
+edge:{sourcename:"1683 1667 literal,108,109" targetname:"1685 5 \"Size of t2: {0}\",108,109"}
+node:{title:"1685 5 \"Size of t2: {0}\",108,109" label:"\"Size of t2: {0}\" 108 109" horizontal_order:109}
+edge:{sourcename:"1665 201 argument_list,108,111" targetname:"1686 20 ,,109,110"}
+node:{title:"1686 20 ,,109,110" label:", 109 110" horizontal_order:110}
+edge:{sourcename:"1665 201 argument_list,108,111" targetname:"1687 207 argument,110,111"}
+node:{title:"1687 207 argument,110,111" label:"argument 110 111" horizontal_order:111}
+edge:{sourcename:"1687 207 argument,110,111" targetname:"1688 478 expression,110,111"}
+node:{title:"1688 478 expression,110,111" label:"expression 110 111" horizontal_order:111}
+edge:{sourcename:"1688 478 expression,110,111" targetname:"1704 1685 identifier,110,111"}
+node:{title:"1704 1685 identifier,110,111" label:"identifier 110 111" horizontal_order:111}
+edge:{sourcename:"1704 1685 identifier,110,111" targetname:"1705 2 size,110,111"}
+node:{title:"1705 2 size,110,111" label:"size 110 111" horizontal_order:111}
+edge:{sourcename:"1659 1685 expression,104,112" targetname:"1706 14 ),111,112"}
+node:{title:"1706 14 ),111,112" label:") 111 112" horizontal_order:112}
+edge:{sourcename:"1649 496 embedded_statement,104,113" targetname:"1707 28 ;,112,113"}
+node:{title:"1707 28 ;,112,113" label:"; 112 113" horizontal_order:113}
+edge:{sourcename:"1984 519 block,60,126" targetname:"1708 489 statement,113,122"}
+node:{title:"1708 489 statement,113,122" label:"statement 113 122" horizontal_order:122}
+edge:{sourcename:"1708 489 statement,113,122" targetname:"1709 496 embedded_statement,113,122"}
+node:{title:"1709 496 embedded_statement,113,122" label:"embedded_statement 113 122" horizontal_order:122}
+edge:{sourcename:"1709 496 embedded_statement,113,122" targetname:"1712 74 if,113,114"}
+node:{title:"1712 74 if,113,114" label:"if 113 114" horizontal_order:114}
+edge:{sourcename:"1709 496 embedded_statement,113,122" targetname:"1713 13 (,114,115"}
+node:{title:"1713 13 (,114,115" label:"( 114 115" horizontal_order:115}
+edge:{sourcename:"1709 496 embedded_statement,113,122" targetname:"1715 478 expression,115,118"}
+node:{title:"1715 478 expression,115,118" label:"expression 115 118" horizontal_order:118}
+edge:{sourcename:"1715 478 expression,115,118" targetname:"1732 1685 expression,115,116"}
+node:{title:"1732 1685 expression,115,116" label:"expression 115 116" horizontal_order:116}
+edge:{sourcename:"1732 1685 expression,115,116" targetname:"1980 1685 identifier,115,116"}
+node:{title:"1980 1685 identifier,115,116" label:"identifier 115 116" horizontal_order:116}
+edge:{sourcename:"1980 1685 identifier,115,116" targetname:"1733 2 size,115,116"}
+node:{title:"1733 2 size,115,116" label:"size 115 116" horizontal_order:116}
+edge:{sourcename:"1715 478 expression,115,118" targetname:"1734 7 binary_operator,116,117"}
+node:{title:"1734 7 binary_operator,116,117" label:"binary_operator 116 117" horizontal_order:117}
+edge:{sourcename:"1734 7 binary_operator,116,117" targetname:"1982 7 overloadable_binary_operator,116,117"}
+node:{title:"1982 7 overloadable_binary_operator,116,117" label:"overloadable_binary_operator 116 117" horizontal_order:117}
+edge:{sourcename:"1982 7 overloadable_binary_operator,116,117" targetname:"1981 7 !=,116,117"}
+node:{title:"1981 7 !=,116,117" label:"!= 116 117" horizontal_order:117}
+edge:{sourcename:"1715 478 expression,115,118" targetname:"1742 1667 expression,117,118"}
+node:{title:"1742 1667 expression,117,118" label:"expression 117 118" horizontal_order:118}
+edge:{sourcename:"1742 1667 expression,117,118" targetname:"1983 1667 literal,117,118"}
+node:{title:"1983 1667 literal,117,118" label:"literal 117 118" horizontal_order:118}
+edge:{sourcename:"1983 1667 literal,117,118" targetname:"1743 3 8,117,118"}
+node:{title:"1743 3 8,117,118" label:"8 117 118" horizontal_order:118}
+edge:{sourcename:"1709 496 embedded_statement,113,122" targetname:"1744 14 ),118,119"}
+node:{title:"1744 14 ),118,119" label:") 118 119" horizontal_order:119}
+edge:{sourcename:"1709 496 embedded_statement,113,122" targetname:"1745 496 embedded_statement,119,122"}
+node:{title:"1745 496 embedded_statement,119,122" label:"embedded_statement 119 122" horizontal_order:122}
+edge:{sourcename:"1745 496 embedded_statement,119,122" targetname:"1748 96 return,119,120"}
+node:{title:"1748 96 return,119,120" label:"return 119 120" horizontal_order:120}
+edge:{sourcename:"1745 496 embedded_statement,119,122" targetname:"1749 478 expression,120,121"}
+node:{title:"1749 478 expression,120,121" label:"expression 120 121" horizontal_order:121}
+edge:{sourcename:"1749 478 expression,120,121" targetname:"1764 1667 literal,120,121"}
+node:{title:"1764 1667 literal,120,121" label:"literal 120 121" horizontal_order:121}
+edge:{sourcename:"1764 1667 literal,120,121" targetname:"1765 3 2,120,121"}
+node:{title:"1765 3 2,120,121" label:"2 120 121" horizontal_order:121}
+edge:{sourcename:"1745 496 embedded_statement,119,122" targetname:"1766 28 ;,121,122"}
+node:{title:"1766 28 ;,121,122" label:"; 121 122" horizontal_order:122}
+edge:{sourcename:"1984 519 block,60,126" targetname:"1767 489 statement,122,125"}
+node:{title:"1767 489 statement,122,125" label:"statement 122 125" horizontal_order:125}
+edge:{sourcename:"1767 489 statement,122,125" targetname:"1768 496 embedded_statement,122,125"}
+node:{title:"1768 496 embedded_statement,122,125" label:"embedded_statement 122 125" horizontal_order:125}
+edge:{sourcename:"1768 496 embedded_statement,122,125" targetname:"1771 96 return,122,123"}
+node:{title:"1771 96 return,122,123" label:"return 122 123" horizontal_order:123}
+edge:{sourcename:"1768 496 embedded_statement,122,125" targetname:"1772 478 expression,123,124"}
+node:{title:"1772 478 expression,123,124" label:"expression 123 124" horizontal_order:124}
+edge:{sourcename:"1772 478 expression,123,124" targetname:"1787 1667 literal,123,124"}
+node:{title:"1787 1667 literal,123,124" label:"literal 123 124" horizontal_order:124}
+edge:{sourcename:"1787 1667 literal,123,124" targetname:"1788 3 0,123,124"}
+node:{title:"1788 3 0,123,124" label:"0 123 124" horizontal_order:124}
+edge:{sourcename:"1768 496 embedded_statement,122,125" targetname:"1789 28 ;,124,125"}
+node:{title:"1789 28 ;,124,125" label:"; 124 125" horizontal_order:125}
+edge:{sourcename:"1984 519 block,60,126" targetname:"1790 122 },125,126"}
+node:{title:"1790 122 },125,126" label:"} 125 126" horizontal_order:126}
+edge:{sourcename:"1065 1327 struct_declaration,10,127" targetname:"1791 122 },126,127"}
+node:{title:"1791 122 },126,127" label:"} 126 127" horizontal_order:127}
+edge:{sourcename:"1034 769 compilation_unit,0,157" targetname:"1792 818 namespace_member_declaration,127,157"}
+node:{title:"1792 818 namespace_member_declaration,127,157" label:"namespace_member_declaration 127 157" horizontal_order:157}
+edge:{sourcename:"1792 818 namespace_member_declaration,127,157" targetname:"1793 823 type_declaration,127,157"}
+node:{title:"1793 823 type_declaration,127,157" label:"type_declaration 127 157" horizontal_order:157}
+edge:{sourcename:"1793 823 type_declaration,127,157" targetname:"1794 1327 struct_declaration,127,157"}
+node:{title:"1794 1327 struct_declaration,127,157" label:"struct_declaration 127 157" horizontal_order:157}
+edge:{sourcename:"1794 1327 struct_declaration,127,157" targetname:"1797 1606 attribute_section,127,135"}
+node:{title:"1797 1606 attribute_section,127,135" label:"attribute_section 127 135" horizontal_order:135}
+edge:{sourcename:"1797 1606 attribute_section,127,135" targetname:"1798 41 [,127,128"}
+node:{title:"1798 41 [,127,128" label:"[ 127 128" horizontal_order:128}
+edge:{sourcename:"1797 1606 attribute_section,127,135" targetname:"1799 1622 attribute_list,128,134"}
+node:{title:"1799 1622 attribute_list,128,134" label:"attribute_list 128 134" horizontal_order:134}
+edge:{sourcename:"1799 1622 attribute_list,128,134" targetname:"1800 1628 attribute,128,134"}
+node:{title:"1800 1628 attribute,128,134" label:"attribute 128 134" horizontal_order:134}
+edge:{sourcename:"1800 1628 attribute,128,134" targetname:"1804 1685 qualified_identifier,128,129"}
+node:{title:"1804 1685 qualified_identifier,128,129" label:"qualified_identifier 128 129" horizontal_order:129}
+edge:{sourcename:"1804 1685 qualified_identifier,128,129" targetname:"1986 1685 identifier,128,129"}
+node:{title:"1986 1685 identifier,128,129" label:"identifier 128 129" horizontal_order:129}
+edge:{sourcename:"1986 1685 identifier,128,129" targetname:"1805 2 StructLayout,128,129"}
+node:{title:"1805 2 StructLayout,128,129" label:"StructLayout 128 129" horizontal_order:129}
+edge:{sourcename:"1800 1628 attribute,128,134" targetname:"1806 1636 attribute_arguments,129,134"}
+node:{title:"1806 1636 attribute_arguments,129,134" label:"attribute_arguments 129 134" horizontal_order:134}
+edge:{sourcename:"1806 1636 attribute_arguments,129,134" targetname:"1807 13 (,129,130"}
+node:{title:"1807 13 (,129,130" label:"( 129 130" horizontal_order:130}
+edge:{sourcename:"1806 1636 attribute_arguments,129,134" targetname:"1811 478 expression,130,133"}
+node:{title:"1811 478 expression,130,133" label:"expression 130 133" horizontal_order:133}
+edge:{sourcename:"1811 478 expression,130,133" targetname:"1830 1685 expression,130,131"}
+node:{title:"1830 1685 expression,130,131" label:"expression 130 131" horizontal_order:131}
+edge:{sourcename:"1830 1685 expression,130,131" targetname:"1987 1685 identifier,130,131"}
+node:{title:"1987 1685 identifier,130,131" label:"identifier 130 131" horizontal_order:131}
+edge:{sourcename:"1987 1685 identifier,130,131" targetname:"1831 2 LayoutKind,130,131"}
+node:{title:"1831 2 LayoutKind,130,131" label:"LayoutKind 130 131" horizontal_order:131}
+edge:{sourcename:"1811 478 expression,130,133" targetname:"1832 24 .,131,132"}
+node:{title:"1832 24 .,131,132" label:". 131 132" horizontal_order:132}
+edge:{sourcename:"1811 478 expression,130,133" targetname:"1833 1685 identifier,132,133"}
+node:{title:"1833 1685 identifier,132,133" label:"identifier 132 133" horizontal_order:133}
+edge:{sourcename:"1833 1685 identifier,132,133" targetname:"1834 2 Explicit,132,133"}
+node:{title:"1834 2 Explicit,132,133" label:"Explicit 132 133" horizontal_order:133}
+edge:{sourcename:"1806 1636 attribute_arguments,129,134" targetname:"1835 14 ),133,134"}
+node:{title:"1835 14 ),133,134" label:") 133 134" horizontal_order:134}
+edge:{sourcename:"1797 1606 attribute_section,127,135" targetname:"1836 42 ],134,135"}
+node:{title:"1836 42 ],134,135" label:"] 134 135" horizontal_order:135}
+edge:{sourcename:"1794 1327 struct_declaration,127,157" targetname:"1837 102 struct,135,136"}
+node:{title:"1837 102 struct,135,136" label:"struct 135 136" horizontal_order:136}
+edge:{sourcename:"1794 1327 struct_declaration,127,157" targetname:"1838 1685 identifier,136,137"}
+node:{title:"1838 1685 identifier,136,137" label:"identifier 136 137" horizontal_order:137}
+edge:{sourcename:"1838 1685 identifier,136,137" targetname:"1839 2 TestStructure2,136,137"}
+node:{title:"1839 2 TestStructure2,136,137" label:"TestStructure2 136 137" horizontal_order:137}
+edge:{sourcename:"1794 1327 struct_declaration,127,157" targetname:"1841 118 {,137,138"}
+node:{title:"1841 118 {,137,138" label:"{ 137 138" horizontal_order:138}
+edge:{sourcename:"1794 1327 struct_declaration,127,157" targetname:"1845 926 member_declaration,138,147"}
+node:{title:"1845 926 member_declaration,138,147" label:"member_declaration 138 147" horizontal_order:147}
+edge:{sourcename:"1845 926 member_declaration,138,147" targetname:"1990 926 field_declaration,138,147"}
+node:{title:"1990 926 field_declaration,138,147" label:"field_declaration 138 147" horizontal_order:147}
+edge:{sourcename:"1990 926 field_declaration,138,147" targetname:"1848 1606 attribute_section,138,144"}
+node:{title:"1848 1606 attribute_section,138,144" label:"attribute_section 138 144" horizontal_order:144}
+edge:{sourcename:"1848 1606 attribute_section,138,144" targetname:"1849 41 [,138,139"}
+node:{title:"1849 41 [,138,139" label:"[ 138 139" horizontal_order:139}
+edge:{sourcename:"1848 1606 attribute_section,138,144" targetname:"1850 1622 attribute_list,139,143"}
+node:{title:"1850 1622 attribute_list,139,143" label:"attribute_list 139 143" horizontal_order:143}
+edge:{sourcename:"1850 1622 attribute_list,139,143" targetname:"1851 1628 attribute,139,143"}
+node:{title:"1851 1628 attribute,139,143" label:"attribute 139 143" horizontal_order:143}
+edge:{sourcename:"1851 1628 attribute,139,143" targetname:"1855 1685 qualified_identifier,139,140"}
+node:{title:"1855 1685 qualified_identifier,139,140" label:"qualified_identifier 139 140" horizontal_order:140}
+edge:{sourcename:"1855 1685 qualified_identifier,139,140" targetname:"1988 1685 identifier,139,140"}
+node:{title:"1988 1685 identifier,139,140" label:"identifier 139 140" horizontal_order:140}
+edge:{sourcename:"1988 1685 identifier,139,140" targetname:"1856 2 FieldOffset,139,140"}
+node:{title:"1856 2 FieldOffset,139,140" label:"FieldOffset 139 140" horizontal_order:140}
+edge:{sourcename:"1851 1628 attribute,139,143" targetname:"1857 1636 attribute_arguments,140,143"}
+node:{title:"1857 1636 attribute_arguments,140,143" label:"attribute_arguments 140 143" horizontal_order:143}
+edge:{sourcename:"1857 1636 attribute_arguments,140,143" targetname:"1858 13 (,140,141"}
+node:{title:"1858 13 (,140,141" label:"( 140 141" horizontal_order:141}
+edge:{sourcename:"1857 1636 attribute_arguments,140,143" targetname:"1862 478 expression,141,142"}
+node:{title:"1862 478 expression,141,142" label:"expression 141 142" horizontal_order:142}
+edge:{sourcename:"1862 478 expression,141,142" targetname:"1877 1667 literal,141,142"}
+node:{title:"1877 1667 literal,141,142" label:"literal 141 142" horizontal_order:142}
+edge:{sourcename:"1877 1667 literal,141,142" targetname:"1878 3 0,141,142"}
+node:{title:"1878 3 0,141,142" label:"0 141 142" horizontal_order:142}
+edge:{sourcename:"1857 1636 attribute_arguments,140,143" targetname:"1879 14 ),142,143"}
+node:{title:"1879 14 ),142,143" label:") 142 143" horizontal_order:143}
+edge:{sourcename:"1848 1606 attribute_section,138,144" targetname:"1880 42 ],143,144"}
+node:{title:"1880 42 ],143,144" label:"] 143 144" horizontal_order:144}
+edge:{sourcename:"1990 926 field_declaration,138,147" targetname:"1881 137 type,144,145"}
+node:{title:"1881 137 type,144,145" label:"type 144 145" horizontal_order:145}
+edge:{sourcename:"1881 137 type,144,145" targetname:"1886 162 predefined_type,144,145"}
+node:{title:"1886 162 predefined_type,144,145" label:"predefined_type 144 145" horizontal_order:145}
+edge:{sourcename:"1886 162 predefined_type,144,145" targetname:"1989 162 integral_type,144,145"}
+node:{title:"1989 162 integral_type,144,145" label:"integral_type 144 145" horizontal_order:145}
+edge:{sourcename:"1989 162 integral_type,144,145" targetname:"1887 50 byte,144,145"}
+node:{title:"1887 50 byte,144,145" label:"byte 144 145" horizontal_order:145}
+edge:{sourcename:"1990 926 field_declaration,138,147" targetname:"1888 949 variable_declarators,145,146"}
+node:{title:"1888 949 variable_declarators,145,146" label:"variable_declarators 145 146" horizontal_order:146}
+edge:{sourcename:"1888 949 variable_declarators,145,146" targetname:"1889 955 variable_declarator,145,146"}
+node:{title:"1889 955 variable_declarator,145,146" label:"variable_declarator 145 146" horizontal_order:146}
+edge:{sourcename:"1889 955 variable_declarator,145,146" targetname:"1890 1685 identifier,145,146"}
+node:{title:"1890 1685 identifier,145,146" label:"identifier 145 146" horizontal_order:146}
+edge:{sourcename:"1890 1685 identifier,145,146" targetname:"1891 2 val,145,146"}
+node:{title:"1891 2 val,145,146" label:"val 145 146" horizontal_order:146}
+edge:{sourcename:"1990 926 field_declaration,138,147" targetname:"1892 28 ;,146,147"}
+node:{title:"1892 28 ;,146,147" label:"; 146 147" horizontal_order:147}
+edge:{sourcename:"1794 1327 struct_declaration,127,157" targetname:"1894 926 member_declaration,147,156"}
+node:{title:"1894 926 member_declaration,147,156" label:"member_declaration 147 156" horizontal_order:156}
+edge:{sourcename:"1894 926 member_declaration,147,156" targetname:"1993 926 field_declaration,147,156"}
+node:{title:"1993 926 field_declaration,147,156" label:"field_declaration 147 156" horizontal_order:156}
+edge:{sourcename:"1993 926 field_declaration,147,156" targetname:"1897 1606 attribute_section,147,153"}
+node:{title:"1897 1606 attribute_section,147,153" label:"attribute_section 147 153" horizontal_order:153}
+edge:{sourcename:"1897 1606 attribute_section,147,153" targetname:"1898 41 [,147,148"}
+node:{title:"1898 41 [,147,148" label:"[ 147 148" horizontal_order:148}
+edge:{sourcename:"1897 1606 attribute_section,147,153" targetname:"1899 1622 attribute_list,148,152"}
+node:{title:"1899 1622 attribute_list,148,152" label:"attribute_list 148 152" horizontal_order:152}
+edge:{sourcename:"1899 1622 attribute_list,148,152" targetname:"1900 1628 attribute,148,152"}
+node:{title:"1900 1628 attribute,148,152" label:"attribute 148 152" horizontal_order:152}
+edge:{sourcename:"1900 1628 attribute,148,152" targetname:"1904 1685 qualified_identifier,148,149"}
+node:{title:"1904 1685 qualified_identifier,148,149" label:"qualified_identifier 148 149" horizontal_order:149}
+edge:{sourcename:"1904 1685 qualified_identifier,148,149" targetname:"1991 1685 identifier,148,149"}
+node:{title:"1991 1685 identifier,148,149" label:"identifier 148 149" horizontal_order:149}
+edge:{sourcename:"1991 1685 identifier,148,149" targetname:"1905 2 FieldOffset,148,149"}
+node:{title:"1905 2 FieldOffset,148,149" label:"FieldOffset 148 149" horizontal_order:149}
+edge:{sourcename:"1900 1628 attribute,148,152" targetname:"1906 1636 attribute_arguments,149,152"}
+node:{title:"1906 1636 attribute_arguments,149,152" label:"attribute_arguments 149 152" horizontal_order:152}
+edge:{sourcename:"1906 1636 attribute_arguments,149,152" targetname:"1907 13 (,149,150"}
+node:{title:"1907 13 (,149,150" label:"( 149 150" horizontal_order:150}
+edge:{sourcename:"1906 1636 attribute_arguments,149,152" targetname:"1911 478 expression,150,151"}
+node:{title:"1911 478 expression,150,151" label:"expression 150 151" horizontal_order:151}
+edge:{sourcename:"1911 478 expression,150,151" targetname:"1926 1667 literal,150,151"}
+node:{title:"1926 1667 literal,150,151" label:"literal 150 151" horizontal_order:151}
+edge:{sourcename:"1926 1667 literal,150,151" targetname:"1927 3 2,150,151"}
+node:{title:"1927 3 2,150,151" label:"2 150 151" horizontal_order:151}
+edge:{sourcename:"1906 1636 attribute_arguments,149,152" targetname:"1928 14 ),151,152"}
+node:{title:"1928 14 ),151,152" label:") 151 152" horizontal_order:152}
+edge:{sourcename:"1897 1606 attribute_section,147,153" targetname:"1929 42 ],152,153"}
+node:{title:"1929 42 ],152,153" label:"] 152 153" horizontal_order:153}
+edge:{sourcename:"1993 926 field_declaration,147,156" targetname:"1930 137 type,153,154"}
+node:{title:"1930 137 type,153,154" label:"type 153 154" horizontal_order:154}
+edge:{sourcename:"1930 137 type,153,154" targetname:"1935 162 predefined_type,153,154"}
+node:{title:"1935 162 predefined_type,153,154" label:"predefined_type 153 154" horizontal_order:154}
+edge:{sourcename:"1935 162 predefined_type,153,154" targetname:"1992 162 integral_type,153,154"}
+node:{title:"1992 162 integral_type,153,154" label:"integral_type 153 154" horizontal_order:154}
+edge:{sourcename:"1992 162 integral_type,153,154" targetname:"1936 77 int,153,154"}
+node:{title:"1936 77 int,153,154" label:"int 153 154" horizontal_order:154}
+edge:{sourcename:"1993 926 field_declaration,147,156" targetname:"1937 949 variable_declarators,154,155"}
+node:{title:"1937 949 variable_declarators,154,155" label:"variable_declarators 154 155" horizontal_order:155}
+edge:{sourcename:"1937 949 variable_declarators,154,155" targetname:"1938 955 variable_declarator,154,155"}
+node:{title:"1938 955 variable_declarator,154,155" label:"variable_declarator 154 155" horizontal_order:155}
+edge:{sourcename:"1938 955 variable_declarator,154,155" targetname:"1939 1685 identifier,154,155"}
+node:{title:"1939 1685 identifier,154,155" label:"identifier 154 155" horizontal_order:155}
+edge:{sourcename:"1939 1685 identifier,154,155" targetname:"1940 2 val2,154,155"}
+node:{title:"1940 2 val2,154,155" label:"val2 154 155" horizontal_order:155}
+edge:{sourcename:"1993 926 field_declaration,147,156" targetname:"1941 28 ;,155,156"}
+node:{title:"1941 28 ;,155,156" label:"; 155 156" horizontal_order:156}
+edge:{sourcename:"1794 1327 struct_declaration,127,157" targetname:"1942 122 },156,157"}
+node:{title:"1942 122 },156,157" label:"} 156 157" horizontal_order:157}
+}
