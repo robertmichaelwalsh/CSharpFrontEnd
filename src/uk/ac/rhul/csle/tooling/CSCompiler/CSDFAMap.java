@@ -48,16 +48,16 @@ public class CSDFAMap extends BasicDFAMap {
      */
     TOKENS = new String[] { "whitespace", "comment", "identifier", "abstract", "as", "base", "bool", "break", "byte",
             "case", "catch", "char", "checked", "class", "const", "continue", "decimal", "default", "delegate", "do",
-            "double", "else", "enum", "event", "explicit", "extern", "finally", "fixed", "float", "for", "foreach",
-            "goto", "if", "implicit", "in", "int", "interface", "internal", "is", "lock", "long", "namespace", "new",
-            "object", "operator", "out", "override", "params", "private", "protected", "public", "readonly", "ref",
-            "return", "sbyte", "sealed", "short", "stackalloc", "static", "string", "struct", "switch", "this", "throw",
-            "try", "typeof", "uint", "ulong", "unchecked", "unsafe", "ushort", "using", "virtual", "void", "volatile",
-            "while", "method", "integer_literal", "real_literal", "character_literal", "string_literal", ".", ",", "(",
-            ")", "[", "]", "++", "--", "new_line", "+", "-", "!", "*", "/", "%", "|", "<<", ">>", "<", ">", "<=", ">=",
-            "==", "!=", "&", "^", "&&", "||", "?", ":", ";", "=", "+=", "-=", "*=", "/=", "%=", "&=", "|=", "^=", "<<=",
-            ">>=", "{", "}", "~", "assembly", "module", "field", "param", "property", "type", "add", "remove", "get",
-            "set", "boolean_literal", "null_literal" };
+            "double", "else", "enum", "event", "explicit", "extern", "false", "finally", "fixed", "float", "for",
+            "foreach", "goto", "if", "implicit", "in", "int", "interface", "internal", "is", "lock", "long",
+            "namespace", "new", "object", "operator", "out", "override", "params", "private", "protected", "public",
+            "readonly", "ref", "return", "sbyte", "sealed", "short", "stackalloc", "static", "string", "struct",
+            "switch", "this", "throw", "try", "typeof", "uint", "ulong", "unchecked", "unsafe", "ushort", "using",
+            "virtual", "void", "volatile", "while", "method", "integer_literal", "real_literal", "true",
+            "character_literal", "string_literal", ".", ",", "(", ")", "[", "]", "++", "--", "new_line", "+", "-", "!",
+            "*", "/", "%", "|", "<<", ">>", "<", ">", "<=", ">=", "==", "!=", "&", "^", "&&", "||", "?", ":", ";", "=",
+            "+=", "-=", "*=", "/=", "%=", "&=", "|=", "^=", "<<=", ">>=", "{", "}", "~", "assembly", "module", "field",
+            "param", "property", "type", "add", "remove", "get", "set", "null_literal" };
 
     /**
      * The list of tokens in C# 1.2 that correspond to layout (or whitespace)
@@ -68,26 +68,6 @@ public class CSDFAMap extends BasicDFAMap {
      * The set of tokens in C# 1.2 which correspond to a single lexeme
      */
     keywords = Arrays.stream(TOKENS).collect(Collectors.toSet());
-
-    /*
-     * boolean_literal : 't' 'r' 'u' 'e' | 'f' 'a' 'l' 's' 'e'
-     */
-    final DFA b_l = new DFA(10);
-
-    b_l.addTransition(0, 1, 't');
-    b_l.addTransition(1, 3, 'r');
-    b_l.addTransition(3, 5, 'u');
-    b_l.addTransition(5, 7, 'e');
-    b_l.addTransition(0, 2, 'f');
-    b_l.addTransition(2, 4, 'a');
-    b_l.addTransition(4, 6, 'l');
-    b_l.addTransition(6, 8, 's');
-    b_l.addTransition(8, 9, 'e');
-    b_l.addAcceptingState(7);
-    b_l.addAcceptingState(9);
-
-    DFAMap.put("boolean_literal", b_l);
-    keywords.remove("boolean_literal");
 
     /*
      * character_literal : '\'' [any unicode character] '\''

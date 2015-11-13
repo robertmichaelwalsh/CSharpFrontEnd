@@ -50,6 +50,7 @@ public class CSLexer {
     lex.addLeftLongestGrouping("enum", "identifier", true);
     lex.addLeftLongestGrouping("event", "identifier", true);
     lex.addLeftLongestGrouping("explicit", "identifier", true);
+    lex.addLeftLongestGrouping("false", "identifier", true);
     lex.addLeftLongestGrouping("finally", "identifier", true);
     lex.addLeftLongestGrouping("fixed", "identifier", true);
     lex.addLeftLongestGrouping("float", "identifier", true);
@@ -81,6 +82,7 @@ public class CSLexer {
     lex.addLeftLongestGrouping("throw", "identifier", true);
     lex.addLeftLongestGrouping("try", "identifier", true);
     lex.addLeftLongestGrouping("typeof", "identifier", true);
+    lex.addLeftLongestGrouping("true", "identifier", true);
     lex.addLeftLongestGrouping("uint", "identifier", true);
     lex.addLeftLongestGrouping("ulong", "identifier", true);
     lex.addLeftLongestGrouping("unchecked", "identifier", true);
@@ -105,7 +107,6 @@ public class CSLexer {
     lex.addLeftLongestGrouping("set", "identifier", true);
 
     lex.addLeftLongestGrouping("null_literal", "identifier", true);
-    lex.addLeftLongestGrouping("boolean_literal", "identifier", true);
 
     lex.addLeftLongestGrouping("=", "==");
     lex.addLeftLongestGrouping("!", "!=");
@@ -203,6 +204,8 @@ public class CSLexer {
     lex.addRestrictedPriorityGrouping("identifier", "volatile");
     lex.addRestrictedPriorityGrouping("identifier", "while");
     lex.addRestrictedPriorityGrouping("identifier", "boolean_literal");
+    lex.addRestrictedPriorityGrouping("identifier", "true");
+    lex.addRestrictedPriorityGrouping("identifier", "false");
     lex.addRestrictedPriorityGrouping("identifier", "null_literal");
   }
 }

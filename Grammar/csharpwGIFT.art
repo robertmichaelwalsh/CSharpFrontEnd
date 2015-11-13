@@ -716,7 +716,7 @@ labeled_statement ::=
    'identifier' ':' statement ;
 
 literal ::=
-   'boolean_literal' |
+   'false' | 'true' |
    'integer_literal' |
    'real_literal' |
    'character_literal' |

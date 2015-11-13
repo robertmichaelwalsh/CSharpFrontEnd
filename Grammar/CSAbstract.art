@@ -2,7 +2,7 @@ CSAbstract()(compilation_unit)
 
 // Section 2 Lexical Structure
 
-literal ::= 'boolean_literal' | 'integer_literal' | 'real_literal' | 'character_literal' |
+literal ::= 'false' | 'true' | 'integer_literal' | 'real_literal' | 'character_literal' |
      'string_literal' | 'null_literal' ; 
 
 // Section 4 Types
